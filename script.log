@@ -1,0 +1,39 @@
+/c/Users/lacs.lab/exam
+lacs.lab
+MemTotal:       16458476 kB
+MemFree:         8767624 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:       16458476 kB
+LowFree:         8767624 kB
+SwapTotal:       1344612 kB
+SwapFree:         908800 kB
+Filesystem                                    Size  Used Avail Use% Mounted on
+C:/Users/lacs.lab/AppData/Local/Programs/Git  200G   90G  111G  45% /
+D:                                            228G  913M  228G   1% /d
+E:                                             49G   46G  3.2G  94% /e
+total 22
+drwxr-xr-x 1 lacs.lab 1049089    0 Sep 25 11:31 .
+drwxr-xr-x 1 lacs.lab 1049089    0 Sep 25 11:24 ..
+-rw-r--r-- 1 lacs.lab 1049089 2653 Sep 25 11:21 Readme.md
+-rw-r--r-- 1 lacs.lab 1049089  547 Sep 25 11:31 script.log
+-rwxr-xr-x 1 lacs.lab 1049089  297 Sep 25 11:31 script.sh
+#!/bin/bash
+
+# Print present working directory
+pwd
+
+# Print current user name
+whoami
+
+# Print amount of memory available
+cat /proc/meminfo
+
+# Print amount of disk space available
+df -h
+
+# List all files in current directory
+ls -la
+
+# Print contents of this script
+cat script.sh
