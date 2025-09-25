@@ -1,32 +1,32 @@
-DEFINITIONS:
+#### **DEFINITIONS:**
 
 
 
-DevOps:
+**DevOps:**
 
 A way to bring software developers and operations teams together so they can build, test, and release software faster and more smoothly.
 
 
 
-CI (Continuous Integration):
+**CI (Continuous Integration):**
 
 A process where developers frequently merge their code changes into a shared place, and automated tests run to catch mistakes early.
 
 
 
-CD (Continuous Delivery/Deployment):
+**CD (Continuous Delivery/Deployment):**
 
 Continuous Delivery means making sure new code is always ready to be released, while Continuous Deployment means automatically releasing it without manual steps.
 
 
 
-Containerization:
+**Containerization:**
 
 A method of packaging an app along with everything it needs to run, so it behaves the same no matter where it’s deployed.
 
 
 
-Rollback:
+**Rollback:**
 
 The action of going back to an earlier version of the software if the latest update causes problems.
 
@@ -36,91 +36,70 @@ The action of going back to an earlier version of the software if the latest upd
 
 
 
-Steps I followed to complete this practical:
+#### **Steps I followed to complete this practical:**
 
 
 
-I opened the command prompt (or PowerShell) and went to my home directory.
+1. I opened the command prompt (or PowerShell) and went to my home directory.
+   
+2. I reated a new folder named exam using the **mkdir** command and entered into it.
+   
+3. Inside the exam folder, I created a file called **Readme.md** and wrote the definitions for the given terms in my own words.
+   
+4. I also added a short paragraph explaining how my work demonstrates DevOps principles.
+   
+5. Next, I created a script file named **script.sh** in the same folder using a text editor.
+   
+6. Inside script.sh, I added Linux commands to:
 
 
 
-I created a new folder named exam using the mkdir command and entered into it.
+* *Show the current directory,*
 
 
 
-Inside the exam folder, I created a file called Readme.md and wrote the definitions for the given terms in my own words.
+* *Show the current user,*
 
 
 
-I also added a short paragraph explaining how my work demonstrates DevOps principles.
+* *Show available memory,*
 
 
 
-Next, I created a script file named script.sh in the same folder using a text editor.
+* *Show disk space,*
 
 
 
-Inside script.sh, I added Linux commands to:
+* *List all files in the directory,*
 
 
 
-Show the current directory,
+* *Display the contents of script.sh itself.*
+
+
+1. Using Git Bash, I made script.sh executable with **chmod +x.**
+
+2. I ran the script and redirected its output to a new file called **script.log.**
+
+3. I created a new **GitHub repository** online without any files.
+   
+4. Back in my local exam folder, I initialized a Git repository with git init.
+   
+5. I created a new branch called feature with **git checkout -b feature**.
+   
+6. I added the three files **(Readme.md, script.sh, and script.log)** to Git and committed them.
+   
+7. I linked my local repository to the GitHub repo using the remote URL.
+   
+8. Finally, I pushed my feature branch to GitHub.
 
 
 
-Show the current user,
+------------------------
 
 
 
-Show available memory,
-
-
-
-Show disk space,
-
-
-
-List all files in the directory,
-
-
-
-Display the contents of script.sh itself.
-
-
-
-Using Git Bash, I made script.sh executable with chmod +x.
-
-
-
-I ran the script and redirected its output to a new file called script.log.
-
-
-
-I created a new GitHub repository online without any files.
-
-
-
-Back in my local exam folder, I initialized a Git repository with git init.
-
-
-
-I created a new branch called feature with git checkout -b feature.
-
-
-
-I added the three files (Readme.md, script.sh, and script.log) to Git and committed them.
-
-
-
-I linked my local repository to the GitHub repo using the remote URL.
-
-
-
-Finally, I pushed my feature branch to GitHub.
-
-
-
-How this assignment shows DevOps principles:
+#### **How this assignment shows DevOps principles:**
 
 
 
